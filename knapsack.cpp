@@ -4,7 +4,7 @@ using namespace std;
 // Function to find the maximum profit
 float knapsack(float knp, float perObj[], int w[], float arrX[], int p[], int n)
 {
-    float profit;
+    float profit = 0;
     int i, size = n, index;
     //array size obdi
     while (size-- && knp > 0.0)
